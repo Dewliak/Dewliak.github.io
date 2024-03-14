@@ -1,9 +1,8 @@
 ---
 title: IO feladat
-date: 2024-03-14 20:12
-category: [feladat]
-author: Veres Benedek
-tags: [1,IO]
+date: 2024-03-13 20:12:00
+categories: [feladat]
+tags: ['1',IO]
 ---
 
 1. Készíts egy programot, amely üdvözöl

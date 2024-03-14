@@ -1,9 +1,8 @@
 ---
 title: Páros vagy páratlan
-date: 2024-03-14 20:19
-category: [feladat]
-author: Veres Benedek
-tags: [3, if]
+date: 2024-03-13 12:00:00
+categories: [feladat]
+tags: ['3', if]
 ---
 
 írj programot ami bekér egy számot a felhasználótól
