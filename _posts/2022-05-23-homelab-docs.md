@@ -15,11 +15,11 @@ megj.: az inputot áttudod alakítani integerré az int()
 * 3
 <details>
 <summary>
-Preview
+
 </summary>
 
 {% highlight ruby %}
-puts 'Expanded message'
+
 {% endhighlight %}
 
 </details>
@@ -29,3 +29,5 @@ puts 'Expanded message'
 some text and [here is possible to download the file in PDF][1]
 
 [1]:{{ site.url }}/download/files.pdf
+
+dropdown
