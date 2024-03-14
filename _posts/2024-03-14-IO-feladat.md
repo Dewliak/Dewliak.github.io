@@ -1,11 +1,9 @@
 ---
-layout: post
 title: IO feladat
 date: 2024-03-14 20:12
-category: feladat
+category: [feladat]
 author: Veres Benedek
 tags: [1,IO]
-summary: 
 ---
 
 1. Készíts egy programot, amely üdvözöl
