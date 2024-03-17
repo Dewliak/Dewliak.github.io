@@ -15,11 +15,16 @@ type: default
 ## **Hardware** - *a megfogható részek*
 
 ### Nuemann-elv
+Neumann János fektette le a mai modern számítógép alapelveit:
+1. Teljesen elektromos működés
+2. Kettes számrendszer használata
+3. Belső memória használata
+4. Univerzális felhasználhatóság, Turing-gép (programozhatóság; a különböző feladatok programokkal legyenek megoldva, nem pedig erre a célra épített hardverrel)
+5. Szerkezet: öt funkcionális egység (aritmetikai egység, központi vezérlőegység, memóriák(operatív tár), bemeneti és kimeneti egységek)
+ 
+![Neumann-architektúra](/assets/neumann-elv.jpg)
 
-![comic](/assets/neumann-elv.jpg)
-
-
-Perifériák:
+### Perifériák:
 1. **Alaplap**
     Az alaplapon találhatóak a számítógép legfontosabb részei: processzor, memória(RAM), ROM, BIOS chip, órajel generátor, csatlakozók; ezeket ősszekötő áramkör, a busz.
 
@@ -65,4 +70,5 @@ Perifériák:
     220 V-os váltakozó áramot alakít át 12 V-os egyenárammá, amely táplalja stabilan az egész gépet.
 8. **Bővítő kártyák**
     Az alaplapot egészíti ki: monitorhoz, videókártya, hálózati kártya, hangkártya, I/O- és bemeneti kártyák
+
 ## Software - *nem megfogható részek*
