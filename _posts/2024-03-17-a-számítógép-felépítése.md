@@ -8,9 +8,16 @@ categories: [Tananyag]
 type: default
 ---
 
+![comic](/assets/computer_structure_comic.jpg)
+
 #  **A számítógép felépítése**
 
 ## **Hardware** - *a megfogható részek*
+
+### Nuemann-elv
+
+![comic](/assets/neumann-elv.jpg)
+
 
 Perifériák:
 1. **Alaplap**
@@ -50,7 +57,12 @@ Perifériák:
 5. **Órajel-generátor**
    Adott periódusú impulzusokkal összehangolja a számítógép működését. Minden impulzusra a gép egy alapműveletet végez el.
 6. **Buszok**
-
-    - Gyorsítótár(Cache) 
-
+    A processzort, memóriát és a bővítókártyákat ún. **buszok** kötik össze
+    Fajtái:
+    - **címbusz** - memória hozzáférés (memóriában adott cím hex kódok formájában van általában pl.: 0x1A)
+    - **adatbusz** - itt folyik a tényleges adatforgalom.
+7. **Tápegység**
+    220 V-os váltakozó áramot alakít át 12 V-os egyenárammá, amely táplalja stabilan az egész gépet.
+8. **Bővítő kártyák**
+    Az alaplapot egészíti ki: monitorhoz, videókártya, hálózati kártya, hangkártya, I/O- és bemeneti kártyák
 ## Software - *nem megfogható részek*
