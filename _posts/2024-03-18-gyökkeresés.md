@@ -11,6 +11,8 @@ type: default
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
+![comic](/assets/comics/function_comic.jpg)
+
 # Függvények gyökkeresése numerikusan
 
 Célunk, hogy egy adott függvény és a x-tengely metszéspontját megtaláljuk. Ezt többszöri helyettesítéssel érjük el. Végül egy olyan <a, b> intervallumot kapunk, melynek nagysága legfeljebb az adott **pontosság**.

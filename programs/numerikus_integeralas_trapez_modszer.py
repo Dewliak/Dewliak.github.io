@@ -7,6 +7,7 @@ def numerikus_integralas_trapez(a,b):
     eps = 0.001
     t = 0
     toreg = 100 # ez csak, hogy eloszor elinduljon
+
     while not (abs(toreg - t) <= eps):
         toreg = t
         t = 0
