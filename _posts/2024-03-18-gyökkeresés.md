@@ -132,6 +132,8 @@ def intervallumfelezo_modszer_optimalizalt(a = -100,b = 100):
     return a
 {% endhighlight %}
 
+
+
 ## Newton módszer
 
 Ez a módszer akkor használtható nagyon effektíven, amikor ismerjük a metszéspont egy közelítő értékét.
@@ -197,3 +199,5 @@ def newton_modszer(xn = 10):
 
     return xn
 {% endhighlight%}
+
+*forrás: Hevesi Anikó tanárnő jegyzetei*

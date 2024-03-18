@@ -61,7 +61,7 @@ def numerikus_integralas_teglalap(a,b):
 A trapéz - módszer nagyon hasonlít a téglalap - módszerrel, csak téglalapok helyett trapézokat használunk. Gyorsabban jutunk el pontos eredményekhez. 
 
 A trapéz magassága **h**, ugyanaz mint előző esetben $$ h = \frac{b-a}{n} $$. A trapéz egyik oldala $$ f(a+i*h) $$ a h hosszúságú intervallum alsó határa, a másik $$ f(a+ (i+1)*h) $$ a h hosszúságú intervallum felső határa. 
-$$ T = \frac{h}{2} \sum_{i=0}{n-1} (f(a + i*h) + f(a + (i+1)*h))  $$
+<center> $$ T = \frac{h}{2} \sum_{i=0}{n-1} (f(a + i*h) + f(a + (i+1)*h))  $$ </center>
 
 A program:
 {% highlight python %}
@@ -85,7 +85,7 @@ def numerikus_integralas_trapez(a,b):
 
 ## Monte Carlo módszer
 
-Elöször kicsit viccesen hangozhat, de egyik módja a terület meghatározásnak az, hogy egy adott téglalapba véletlenszerűen lövöldözünk pontokat. Az $$ f(x) <= y $$ feltétel segítségével megvizsgáljuk, hogy a pont a görbe felett vagy alatt van-e. Összeszámoljuk, hogy hány pont van a görbe alatt és ennek segítségével ki tudjuk fejezni a görbe alatti területet ezzel a képlettel:
+Elöször kicsit viccesen hangozhat, de egyik módja a terület meghatározásnak az, hogy egy adott téglalapba véletlenszerűen lövöldözünk pontokat. Az $$ f(x) <= y $$ feltétel segítségével megvizsgáljuk, hogy a pont a görbe felett vagy alatt van-e. Összeszámoljuk, hogy hány pont van a görbe alatt és ennek segítségével ki tudjuk fejezni a görbe alatti területet ezzel a képlettel: \
 $$ \frac{görbe \,alatti \, pontok \,száma}{összes \,pontok \, száma} = \frac{görbe \,alatti \, terület}{téglalap \, alatti \, terület} $$
 
 A program:
@@ -110,3 +110,5 @@ def numerikus_integralas_monte_carlo(a,b,magassag=100, n = 10000):
 
     return terulet
 {% endhighlight %}
+
+*forrás: Hevesi Anikó tanárnő jegyzetei*
