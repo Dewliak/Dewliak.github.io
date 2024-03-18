@@ -18,7 +18,7 @@ megj.: az inputot áttudod alakítani integerré az int()
 
 </summary>
 
-{% highlight ruby %}
+{% highlight python %}
 
 {% endhighlight %}
 
