@@ -139,7 +139,7 @@ def intervallumfelezo_modszer_optimalizalt(a = -100,b = 100):
 Ez a módszer akkor használtható nagyon effektíven, amikor ismerjük a metszéspont egy közelítő értékét.
 **Lényege:** Ezen a közelítőpontnál(továbba x0) a érintőt húzunk a függvényhet. Ez az érintő az x-tengelyt metszve az **x1** pontot adja, amely jobb esetben közelebb van a gyökhöz, mint az **x0**. 
 
-** ÁBRA **
+![comic](/assets/segedanyag/Newton_method.png)
 
 Felírhatjuk az ábra alapján:
 

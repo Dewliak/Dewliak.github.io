@@ -4,7 +4,7 @@ description: ""
 date: 2024-03-18T12:50:15.620Z
 preview: ""
 tags: []
-categories: []
+categories: [Tananyag]
 type: default
 ---
 
@@ -32,6 +32,11 @@ Innen tehát általánosan:
 $$ T = \int_{a}^{b} f(x) \, dx = h*\sum_{i=0}^{n-1}{f(a+i*h)}$$
 
 Belátható, hogy az eredmény annál pontosabb, minnél nagyobb az **n**. Ha **n** nagyon nagy, akkor **h** értéke szinte pontszerű.  Addig növeljünk n-t, amíg a felosztáshoz tartozó <ins> területek közötti eltérés nem lesz a kívánt $$ \varepsilon $$ - nál kisebb </ins>
+
+
+![teglalap modszer](/assets/gifs/numerikus_integralas_teglalap1.gif)
+
+<center> <i> Téglalap módszer </i> </center>
 
 Program:
 
@@ -63,6 +68,12 @@ A trapéz - módszer nagyon hasonlít a téglalap - módszerrel, csak téglalapo
 A trapéz magassága **h**, ugyanaz mint előző esetben $$ h = \frac{b-a}{n} $$. A trapéz egyik oldala $$ f(a+i*h) $$ a h hosszúságú intervallum alsó határa, a másik $$ f(a+ (i+1)*h) $$ a h hosszúságú intervallum felső határa. 
 <center> $$ T = \frac{h}{2} \sum_{i=0}{n-1} (f(a + i*h) + f(a + (i+1)*h))  $$ </center>
 
+![trapez modszer](/assets/gifs/numerikus_integralas_trapez.gif)
+
+<center> <i> Trapéz módszer </i> </center>
+
+
+
 A program:
 {% highlight python %}
 def numerikus_integralas_trapez(a,b):
@@ -86,7 +97,10 @@ def numerikus_integralas_trapez(a,b):
 ## Monte Carlo módszer
 
 Elöször kicsit viccesen hangozhat, de egyik módja a terület meghatározásnak az, hogy egy adott téglalapba véletlenszerűen lövöldözünk pontokat. Az $$ f(x) <= y $$ feltétel segítségével megvizsgáljuk, hogy a pont a görbe felett vagy alatt van-e. Összeszámoljuk, hogy hány pont van a görbe alatt és ennek segítségével ki tudjuk fejezni a görbe alatti területet ezzel a képlettel: \
+<center>
 $$ \frac{görbe \,alatti \, pontok \,száma}{összes \,pontok \, száma} = \frac{görbe \,alatti \, terület}{téglalap \, alatti \, terület} $$
+
+</center>
 
 A program:
 {% highlight python %}
@@ -111,4 +125,4 @@ def numerikus_integralas_monte_carlo(a,b,magassag=100, n = 10000):
     return terulet
 {% endhighlight %}
 
-*forrás: Hevesi Anikó tanárnő jegyzetei*
+> *forrás: Hevesi Anikó tanárnő jegyzetei*
