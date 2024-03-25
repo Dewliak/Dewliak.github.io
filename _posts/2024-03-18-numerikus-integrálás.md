@@ -97,10 +97,16 @@ def numerikus_integralas_trapez(a,b):
 ## Monte Carlo módszer
 
 Elöször kicsit viccesen hangozhat, de egyik módja a terület meghatározásnak az, hogy egy adott téglalapba véletlenszerűen lövöldözünk pontokat. Az $$ f(x) <= y $$ feltétel segítségével megvizsgáljuk, hogy a pont a görbe felett vagy alatt van-e. Összeszámoljuk, hogy hány pont van a görbe alatt és ennek segítségével ki tudjuk fejezni a görbe alatti területet ezzel a képlettel: \
+
+![trapez modszer](/assets/gifs/numerikus_integralas_monte_carlo.gif)
+
+<center> <i> Monter Carlo módszer </i> </center>
+
 <center>
 $$ \frac{görbe \,alatti \, pontok \,száma}{összes \,pontok \, száma} = \frac{görbe \,alatti \, terület}{téglalap \, alatti \, terület} $$
 
 </center>
+
 
 A program:
 {% highlight python %}
