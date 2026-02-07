@@ -1,18 +1,17 @@
 ---
-title: Prezentáció - 2 - Adatípusok és változók
-description: ""
+title: Prezentációk
+description: "Régebbi prezentációk elérhetősége"
 date: 2026-02-07T22:06:05.237Z
 preview: ""
 tags: []
 categories: []
 ---
+Prezentációk
 
-
-<div style="width: 100%; height: 600px;">
-  <iframe src="/assets/pdfs/presentation1.pdf" width="100%" height="100%">
-    Your browser does not support PDFs. Download it 
-    <a href="/assets/pdfs/2-adatipusok-valtozok.pdf">here</a>.
-  </iframe>
-</div>
+[1 - Bevezetés](/assets/pdfs/1-bevezetes.pdf)
+[2 - Adattípusok és változók](/assets/pdfs/2-adatipusok-valtozok.pdf)
+[3 - Ciklusok](/assets/pdfs/3-loop.pdf)
+[4 - Listák és tuplek](/assets/pdfs/4-listak-tuplek.pdf)
+[5 - Függvények](/assets/pdfs/5-függvények.pdf)
 
 
